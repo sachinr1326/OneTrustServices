@@ -1,0 +1,60 @@
+.inputbox1{
+	position: relative;
+    width: 100%;
+	
+}
+
+.nametext{
+	display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    
+	
+}
+.inputBox{
+    position: relative;
+    width: 100%;
+}
+.inputBox input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,0.25);
+    background: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color:black;
+    font-size: 1em;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+.inputBox span
+{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color:gray;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.inputBox input:valid ~ span,.inputBox input:focus ~ span{
+    color:black;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background: white;
+    
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}

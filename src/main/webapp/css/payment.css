@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+
+}
+body{
+
+    font-family: 'Raleway', sans-serif;
+}
+.banner-text {
+
+    text-transform: uppercase;
+    margin-bottom: 90px;
+    color: #fff;
+    /* background: linear-gradient(60deg, #fff ,#7bbb43); */
+    /* background: -webkit-linear-gradient(#eee, #333); */
+    /* background:  linear-gradient(to right, #30CFD0 0%, #330867 100%); */
+   /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  
+}
+   
+.banner-image{
+  background-image: url('../images/payment.jpg');
+  background-size: cover;
+   min-height: 450px;
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+* ---------------payment--------------- */
+.payment_section{
+    padding: 25px 30px!important;
+   
+   
+   /* box-shadow: 2px 0px 29px rgb(0 0 0 / 14%); */
+   background-color: #ffffff
+}
+
+
+.price-list{
+ font-size: x-large;
+ color:  #7bbb43;	
+	
+	
+}
+
+.btn{
+    /* background-color: var(--line-border-fill);
+ color:#ffff;
+border-radius: 6px;
+border: 0;
+cursor: pointer;
+font-family: inherit;
+padding: 8px 30px;
+margin: 5px;
+f */
+
+    margin: 3px 0;
+    padding: 11px 60px;
+    background-color: #7bbb43;
+    color: white;
+    border: 1px solid #7bbb43;
+    border-radius: 8px;
+    font-size: 14px;
+   
+
+
+}
+.btn:focus{
+    outline: 0;
+   
+}
+.btn:active{
+    transform: scale(0.97);
+}
+.btn:hover{
+    background-color:#033d29;
+    color:white;
+}

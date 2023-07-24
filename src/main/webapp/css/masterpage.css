@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+.admin-section-header{
+ background-color: #7bbb43;
+ height: 100px;
+  width: 100%;
+  padding-top: 4%;
+}
+.admin-header-card{
+  width: 80%;
+  min-height: 70px;
+  margin: auto;
+  border-radius: 5px;
+
+ 
+}
+
+.admin-header-card .container .row .col .active::after{
+  content: " ";
+  display: block;
+  position: absolute;
+  border-radius: 5px;
+  height: 5px;
+  margin-top: 10px;
+  background: #7bbb43;
+  width: 175px;
+
+}
+.admin-section-body{
+  background-color: #e7e9eb;
+}
+.admin-header-card .container .row .vr{
+  border-right: 2px solid #315c45;
+}
+.admin-header-card .container .row .col{
+  font-family: 'Raleway', sans-serif;
+ 
+  min-height: 80%;
+  text-align: center;
+  font-weight: 900;
+  color: #315c45;
+}
+.admin-header-card .container .row .col a{
+  color: #315c45; 
+  text-decoration: none;
+}
+.admin-header-card .container .row .col a:hover{
+  color: #7bbb43;
+}
+.admin-header-card .container .row .col a:hover i{
+  color: #7bbb43;
+}
+.admin-header-card .container .row .col i{
+  font-size: 30px;
+   color: #315c45;
+}
+
+/* ========================orders============================ */
+.admin-section-orders,
+.admin-section-customers,
+.admin-section-accept-order,
+.admin-section-reject-order,
+.admin-section-notification,
+.admin-section-dashboard{
+  padding-top: 5%;
+  margin-bottom: 7%;
+}
+.admin-notification-orders-card,
+.admin-customer-card ,
+.admin-reject-orders-card,
+.admin-accept-orders-card,
+.admin-orders-card{
+  width: 95%;
+  min-height: 70px;
+  margin: auto;
+  border-radius: 5px;
+ border: 1px solid #315c45;
+}
+.admin-notification-orders-card .row .vr,
+.admin-customer-card  .row .vr,
+.admin-reject-orders-card  .row .vr,
+.admin-accept-orders-card  .row .vr,
+.admin-orders-card  .row .vr{
+  border-right: 2px solid #315c45;
+}
+.admin-notification-orders-card .row .col,
+.admin-customer-card  .row .col,
+.admin-reject-orders-card  .row .col,
+.admin-accept-orders-card  .row .col,
+.admin-orders-card  .row .col{
+  font-family: 'Raleway', sans-serif;
+ 
+  min-height: 80%;
+  text-align: center;
+  font-weight: 900;
+  color: rgb(19, 19, 19);
+}
+.admin-notification-card-content,
+.admin-orders-card-content{
+
+  width: 95%;
+  min-height: 50px;
+  margin: auto;
+  border-radius: 5px;
+ border: 1px solid #7bbb43;
+}
+
+.admin-notification-card-content .row .vr,
+.admin-orders-card-content  .row .vr{
+  border-right: 2px solid #7bbb43;
+}
+.admin-notification-card-content .row .col,
+.admin-orders-card-content  .row .col{
+  font-family: 'poppins', sans-serif;
+ font-size: 10px;
+ max-width: 146px;
+  min-height: 80%;
+  text-align: center;
+  font-weight: 300;
+  color: #315c45;
+}
+/* =====================customer=========================== */
+.admin-customer-card-content{
+
+  width: 95%;
+  min-height: 50px;
+  margin: auto;
+  border-radius: 5px;
+ border: 1px solid #7bbb43;
+}
+.admin-customer-card-content  .row .vr{
+  border-right: 2px solid #7bbb43;
+}
+.admin-customer-card-content  .row .col{
+  font-family: 'poppins', sans-serif;
+ font-size: 13px;
+  min-height: 80%;
+  text-align: center;
+  font-weight: 400;
+  color: #315c45;
+}
+.admin-customer-card-content  .row .col-message{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 13px;
+  color: #1a73e8;
+}
+/* ==================modal-customer-header============= */
+
+.admin-customer-card-content  .row .col .modal .modal-dialog .modal-content .modal-header{
+  background-color: #7bbb43;
+  height: 50px;
+   width: 100%;
+  padding-top: 6%;
+}
+.admin-customer-card-content  .row .col .modal .modal-dialog .modal-content .modal-header .modal-card{
+  width: 80%;
+  min-height: 40px;
+  margin: auto;
+  border-radius: 5px;
+  color: #315c45;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+
+}
+
+/* ========================================track update====================== */
+
+.modal-container {
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+  max-width: 700px;
+  width:100%;
+  position: relative;
+  z-index: 0;
+ 
+}
+
+.modal-container .steps-heading {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+ 
+ gap: 50px;
+ color: #7bbb43;
+  font-size: 10px;
+  font-weight: 700;
+  }
+
+.modal-container  .steps ,.steps-heading {
+display: flex;
+align-items: center;
+width: 100%;
+justify-content: space-between;
+position: relative;
+}
+
+.steps .circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  /* color: #4CAF50; */
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid #7bbb43;
+  transition: all 200ms ease;
+  transition-delay: 0ms;  
+}
+.steps .circle.active {
+  transition-delay: 200ms;
+  color: #315c45;
+  border-color:  #315c45;
+
+}
+.steps-heading .circle_h.active ,.circle_d.active {
+  transition-delay: 200ms;
+  color: #315c45;
+  
+ 
+}
+.shockwaveJump{
+  animation: shockwaveJump 1s ease-out infinite;
+}
+@keyframes shockwaveJump {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.08);
+  }
+  50% {
+     transform: scale(0.98);
+  }
+  55% {
+    transform: scale(1.02);
+  }
+  60% {
+    transform: scale(0.98);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.shockwaveJump_remove{
+  animation: none;
+}
+
+.icon_added::before{
+  transition-delay: 200ms;
+  font-size: 22px;
+  color:  #315c45;
+  font-family: "FontAwesome";
+  content: '\f058';
+}
+
+.icon_remove::before{
+  transition-delay: 0ms;
+  font-size: 22px;
+  color: #7bbb43;
+  font-family: "FontAwesome";
+  content: '\f111';
+}
+
+.steps .progress-bar{
+position: absolute;
+height: 4px;
+width: 95%;
+background: #7bbb43;
+z-index: -1;
+}
+
+
+
+.progress-bar .indicator{
+  position: absolute;
+  height: 100%;
+  width: 0;
+  background: #315c45; 
+  transition: all 300ms ease;
+ 
+}
+ .container .buttons-track{
+  margin-top: 5%;
+} 
+.add-track-btn,.buttons-track button{
+  padding: 8px 25px;
+  background: #315c45;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+font-size: 16px;
+font-weight: 400;
+cursor: pointer;
+
+transition:  all 200ms linear;
+}
+#track-btn-close{
+  color: #315c45;
+  float: right;
+  font-size: 26px;
+ 
+}
+#track-btn-close:hover{
+  color: #7bbb43;
+}
+.buttons-track button:hover{
+  background: #42785b;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.buttons-track button:active{
+  transform: scale(0.97);
+}
+.buttons-track button:disabled{
+  background:#6eb48f;
+  cursor: not-allowed;
+}
+
+
+  

@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+
+}
+body{
+
+    font-family: 'Raleway', sans-serif;
+}
+.banner-text {
+
+    text-transform: uppercase;
+    margin-bottom: 90px;
+    color: #fff;
+    /* background: linear-gradient(60deg, #fff ,#7bbb43); */
+    /* background: -webkit-linear-gradient(#eee, #333); */
+    /* background:  linear-gradient(to right, #30CFD0 0%, #330867 100%); */
+   /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  
+}
+   
+.banner-image{
+  background-image: url('../images/confirm-3.jpg');
+  background-size: cover;
+   min-height: 450px;
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.order-section{
+  padding: 2% 0;
+  display: block;
+  margin: 0;
+  background-color: #fbfbfb;
+}
+.order-section .container {
+  width: 600px !important;
+  margin: 0 auto;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.confirm-title {
+  text-align: center;
+  display: block;
+  margin: 0;
+  padding: 29px 0 50px 0;
+}
+img {
+  width: auto\9;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+.confirm-title h1 {
+  font-size: 26px;
+  color: #003a25;
+ 
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 20px 0px;
+}
+.confirm-title  p {
+  line-height: 30px;
+  color: #8e8a8a;
+  font-size: 16px;
+}
+.confirm-title p span {
+  color: #6cac34;
+}
+.confirm-title p b {
+  color: #292929;
+}
+.text-center {
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
